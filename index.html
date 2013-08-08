@@ -1,5 +1,9 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="modern"> <!--<![endif]-->
+
 
 	<head>
 
@@ -30,10 +34,26 @@
 
 
 
-		<!-- Scripts -->
+		<!-- Scripts - Libraries -->
 
+		<!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<![endif]-->
+		<!--[if gte IE 9]><!-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<!--<![endif]-->
 
-
+		<script src="lib/jquery.routes.js"></script>
+		<script src="lib/jquery.color-2.1.2.min.js"></script>
+		
+		<!-- Scripts - Local -->
+		<script src="js/generics.js"></script>
+		<script src="js/handlers.js"></script>
+		<script src="js/routes.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script>
+			
+		</script>
 	</head>
 	<body>
 		<header>
@@ -49,11 +69,17 @@
 
 		<section id="portfolio">
 		</section>
-		
+
 		<section id="whoami">
 		</section>
 
-		<section id="contact">
+		<section id="contact-me">
+		</section>
+
+		<section id="fourohfour">
+		</section>
+
+		<section id="overlay">
 		</section>
 
 	<!-- Scripts -->
