@@ -1,0 +1,75 @@
+body[data-breakpoint='desktop']{
+	.pos();
+	.box();
+	.bg(#3066a2,100);
+	color:@white;
+	#wrapper{
+		.pos();
+		.box();
+		.bgi('../img/bg.png','stretch');
+		z-index:-1;
+	}
+	header{
+		.box(100%, 75px);
+		.pos();
+		#logo{
+			.pos(10px,10px);
+		}
+		#navbar{
+			.box(50%);
+			.pos(0px,0px,1,'tr');
+			text-align:right;
+			nav{
+				display:inline-block;
+				position:relative;
+				top:35%;
+				height:30%;
+				padding-right:20px;
+				.opacity(0.5);
+				cursor:pointer;
+				img{
+					height:100%;
+				}
+				label{
+					display:none;
+				}
+			}
+		}
+	}
+	footer{
+		.box(100%,50px);
+		.pos(0px,0px,2,'bl');
+		.copy{
+			.pos(10px,10px,1,'bl');
+			.opacity(0.5);
+		}
+		.settings{
+			.box(50%);
+			.pos(10px,10px,1,'br');
+			text-align:right;
+			.handle{
+				display:inline-block;
+				position:relative;
+				top:25%;
+				height:50%;
+				padding-right:20px;
+				.opacity(0.5);
+				cursor:pointer;
+				img{
+					height:100%;
+				}
+				label{
+					display:none;
+				}
+			}
+		}
+	}
+	section{
+
+	}
+	#overlay{
+
+	}
+
+
+}

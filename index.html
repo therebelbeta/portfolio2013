@@ -36,7 +36,20 @@
 
 		<!-- Scripts - Libraries -->
 
-
+		<script type="text/javascript">
+	    less = {
+	        env: "development", // or "production"
+	        async: false,       // load imports async
+	        fileAsync: false,   // load imports async when in a page under
+	                            // a file protocol
+	        poll: 1000,         // when in watch mode, time in ms between polls
+	        functions: {},      // user functions, keyed by name
+	        dumpLineNumbers: "comments", // or "mediaQuery" or "all"
+	        relativeUrls: false,// whether to adjust url's to be relative
+	                            // if false, url's are already relative to the
+	                            // entry less file
+	    };
+		</script>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.3.3/less.min.js"></script>
 
 		<!--[if lt IE 9]>
@@ -58,47 +71,53 @@
 			
 		</script>
 	</head>
-	<body>
-		<header>
-			<div id='logo'></div>
-			<div id='navbar'>
-				<nav class="skills"><img src="img/white-flash-icon.png" alt="Skills Section"><label class="skills">The Skills</label></nav>
-				<nav class="portfolio"><img src="img/white-briefcase-icon.png" alt="Portfolio Section"><label class="portfolio">The Work</label></nav>
-				<nav class="whoami"><img src="img/white-star-100-icon.png" alt="About Me"><label class="whoami">The Man</label></nav>
-				<nav class="contact-me"><img src="white-chat-icon.png" alt="Contact Me">Reach Out</nav>
-			</div>
-		</header>
-		<footer>
-		</footer>
+	<body data-breakpoint='desktop'>
+		<div id='wrapper'>
+			<header>
+				<div id='logo'><img src="http://placehold.it/200x100" alt="therebelrobot.com"></div>
+				<div id='navbar'>
+					<nav class="skills"><img src="img/white-flash-icon.png" alt="Skills Section"><label class="skills">The Skills</label></nav>
+					<nav class="portfolio"><img src="img/white-briefcase-icon.png" alt="Portfolio Section"><label class="portfolio">The Work</label></nav>
+					<nav class="whoami"><img src="img/white-star-100-icon.png" alt="About Me"><label class="whoami">The Man</label></nav>
+					<nav class="contact-me"><img src="img/white-chat-icon.png" alt="Contact Me"><label class="contact-me">Reach Out</label></nav>
+				</div>
+			</header>
+			<footer>
+				<div class="copy">&copy;2013 Trent Oswald & therebelrobot.com</div>
+				<div class="settings">
+					<div class="handle"><img src="img/white-preferences-icon.png" alt="Site Settings"><label class="settings">Site Settings</label></div>
+					<div class='settings-menu'></div>
+				</div>
+			</footer>
 
-		<section id="intro">
+			<section id="intro">
 
-		</section>
+			</section>
 
-		<section id="skills">
+			<section id="skills">
 
-		</section>
+			</section>
 
-		<section id="portfolio">
+			<section id="portfolio">
 
-		</section>
+			</section>
 
-		<section id="whoami">
+			<section id="whoami">
 
-		</section>
+			</section>
 
-		<section id="contact-me">
+			<section id="contact-me">
 
-		</section>
+			</section>
 
-		<section id="fourohfour">
+			<section id="fourohfour">
 
-		</section>
+			</section>
 
-		<section id="overlay">
-			
-		</section>
+			<section id="overlay">
 
+			</section>
+		</div>
 	<!-- Scripts -->
 
 	</body>
