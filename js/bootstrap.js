@@ -1,7 +1,7 @@
 $(document).ready(function(){
   /*Toolbar Handlers*/
-  console.log('hello');
   $handlers.toolbar();
+  /*Background Looper*/
   $gen.backgroundChange();
 
 });

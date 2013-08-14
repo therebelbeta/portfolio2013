@@ -1,6 +1,5 @@
 $handlers = {
   toolbar:function(){
-    console.log('toolbar');
     $('nav').on('mouseenter',function(){
 
       var $icon = $(this).find('img');
@@ -30,7 +29,6 @@ $handlers = {
 			window.location.hash = '/notfound';
 		}
 		else{
-			console.log('ran');
 		}
 	},
 	skills:function(){
